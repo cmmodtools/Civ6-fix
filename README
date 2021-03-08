@@ -1,0 +1,57 @@
+
+This script will rename files as required so that Civilization VI can find them
+on case-sensitive file systems.
+
+Aspyr states:
+
+"Civilization VI does not support hard drive volumes formatted as Mac OS Extended (CaseSensitive)".
+
+However after this script has been run Civilization VI will work on
+case-sensitive volumes. Only functionality with the Mac App Store version of
+Civilization VI has been tested:
+
+https://apps.apple.com/app/civilization-vi/id1123795278
+
+To run the script enter the following command at the Terminal prompt:
+
+sh Civ6-fix.sh
+
+You will be prompted for your password.
+Output from the script will be similar to the below.
+
+/Applications/Civ6.app/Contents/Assets/DLC/Macedonia_Persia/platforms/windows/audio -> /Applications/Civ6.app/Contents/Assets/DLC/Macedonia_Persia/platforms/windows/Audio
+/Applications/Civ6.app/Contents/Assets/DLC/Macedonia_Persia/platforms/windows -> /Applications/Civ6.app/Contents/Assets/DLC/Macedonia_Persia/platforms/Windows
+/Applications/Civ6.app/Contents/Assets/DLC/Macedonia_Persia/platforms -> /Applications/Civ6.app/Contents/Assets/DLC/Macedonia_Persia/Platforms
+Platforms/Windows/audio -> Platforms/Windows/Audio
+/Applications/Civ6.app/Contents/Assets/DLC/Expansion2/platforms/windows/audio -> /Applications/Civ6.app/Contents/Assets/DLC/Expansion2/platforms/windows/Audio
+/Applications/Civ6.app/Contents/Assets/DLC/Expansion2/platforms/windows -> /Applications/Civ6.app/Contents/Assets/DLC/Expansion2/platforms/Windows
+/Applications/Civ6.app/Contents/Assets/DLC/Expansion2/platforms -> /Applications/Civ6.app/Contents/Assets/DLC/Expansion2/Platforms
+Maps/BalanceMaps/Mirror.Lua -> Maps/BalanceMaps/Mirror.lua
+Maps/Utility/MapEnums.Lua -> Maps/Utility/MapEnums.lua
+UI/Replacements/PlotTooltip_Expansion2.lua -> UI/Replacements/PlotToolTip_Expansion2.lua
+Platforms/Windows/audio -> Platforms/Windows/Audio
+/Applications/Civ6.app/Contents/Assets/DLC/VikingsScenario/platforms/windows -> /Applications/Civ6.app/Contents/Assets/DLC/VikingsScenario/platforms/Windows
+/Applications/Civ6.app/Contents/Assets/DLC/VikingsScenario/platforms -> /Applications/Civ6.app/Contents/Assets/DLC/VikingsScenario/Platforms
+/Applications/Civ6.app/Contents/Assets/DLC/GranColombia_Maya/Platforms/Windows/audio -> /Applications/Civ6.app/Contents/Assets/DLC/GranColombia_Maya/Platforms/Windows/Audio
+Platforms/Windows/audio -> Platforms/Windows/Audio
+/Applications/Civ6.app/Contents/Assets/DLC/Indonesia_Khmer/platforms/windows/audio -> /Applications/Civ6.app/Contents/Assets/DLC/Indonesia_Khmer/platforms/windows/Audio
+/Applications/Civ6.app/Contents/Assets/DLC/Indonesia_Khmer/platforms/windows -> /Applications/Civ6.app/Contents/Assets/DLC/Indonesia_Khmer/platforms/Windows
+/Applications/Civ6.app/Contents/Assets/DLC/Indonesia_Khmer/platforms -> /Applications/Civ6.app/Contents/Assets/DLC/Indonesia_Khmer/Platforms
+Platforms/Windows/audio -> Platforms/Windows/Audio
+Platforms/Windows/audio -> Platforms/Windows/Audio
+Maps/Utility/FeatureGenerator.Lua -> Maps/Utility/FeatureGenerator.lua
+Maps/Utility/MapEnums.Lua -> Maps/Utility/MapEnums.lua
+/Applications/Civ6.app/Contents/Assets/DLC/Australia/platforms/windows/audio -> /Applications/Civ6.app/Contents/Assets/DLC/Australia/platforms/windows/Audio
+/Applications/Civ6.app/Contents/Assets/DLC/Australia/platforms/windows -> /Applications/Civ6.app/Contents/Assets/DLC/Australia/platforms/Windows
+/Applications/Civ6.app/Contents/Assets/DLC/Australia/platforms -> /Applications/Civ6.app/Contents/Assets/DLC/Australia/Platforms
+/Applications/Civ6.app/Contents/Assets/DLC/Nubia_Amanitore/platforms/windows/audio -> /Applications/Civ6.app/Contents/Assets/DLC/Nubia_Amanitore/platforms/windows/Audio
+/Applications/Civ6.app/Contents/Assets/DLC/Nubia_Amanitore/platforms/windows -> /Applications/Civ6.app/Contents/Assets/DLC/Nubia_Amanitore/platforms/Windows
+/Applications/Civ6.app/Contents/Assets/DLC/Nubia_Amanitore/platforms -> /Applications/Civ6.app/Contents/Assets/DLC/Nubia_Amanitore/Platforms
+Platforms/Windows/audio -> Platforms/Windows/Audio
+/Applications/Civ6.app/Contents/Assets/DLC/PiratesScenario/Platforms/Windows/audio -> /Applications/Civ6.app/Contents/Assets/DLC/PiratesScenario/Platforms/Windows/Audio
+UI/Replacements/MultiplayerTurnManager.xml -> UI/Replacements/MultiPlayerTurnManager.xml
+/Applications/Civ6.app/Contents/Assets/DLC/Poland_Jadwiga/platforms/windows/audio -> /Applications/Civ6.app/Contents/Assets/DLC/Poland_Jadwiga/platforms/windows/Audio
+/Applications/Civ6.app/Contents/Assets/DLC/Poland_Jadwiga/platforms/windows -> /Applications/Civ6.app/Contents/Assets/DLC/Poland_Jadwiga/platforms/Windows
+/Applications/Civ6.app/Contents/Assets/DLC/Poland_Jadwiga/platforms -> /Applications/Civ6.app/Contents/Assets/DLC/Poland_Jadwiga/Platforms
+Platforms/Windows/audio -> Platforms/Windows/Audio
+/Applications/Civ6.app/Contents/Assets/Base/Platforms/Windows/audio -> /Applications/Civ6.app/Contents/Assets/Base/Platforms/Windows/Audio
